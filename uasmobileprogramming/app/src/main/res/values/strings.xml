@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Damayanti</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Konfirmasi Password</string>
+    <string name="signUp">Daftar</string>
+    <string name="signIn">Login</string>
+    <string name="doesntHaveAccount">Belum punya akun?</string>
+    <string name="haveAccount">Sudah punya akun?</string>
+</resources>

@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Uasmobileprogramming" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/primary</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Base.Theme.UasmobileprogrammingActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+        <item name="colorPrimary">@color/primary</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+
+
+    <style name="Theme.Uasmobileprogramming" parent="Base.Theme.Uasmobileprogramming" />
+
+    <style name="FullScreenStatusBarTheme" parent="Base.Theme.Uasmobileprogramming">
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:button">@color/primary</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
